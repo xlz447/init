@@ -1,0 +1,2 @@
+nslookup slash16.org | grep "Server" | cut -b 10-
+#source: https://www.thegeekstuff.com/2012/07/nslookup-examples/?utm_source=tuicool

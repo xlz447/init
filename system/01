@@ -1,0 +1,4 @@
+#in the VM, I can use the terminal from Debian to access its files
+#the file that contains the Debian version is
+echo "cat /etc/debian_version"
+#source: https://linuxconfig.org/check-what-debian-version-you-are-running-on-your-linux-system

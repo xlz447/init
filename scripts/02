@@ -1,0 +1,9 @@
+echo "sudo apt-get update -y >> /var/log/update_script.log" > /etc/cron.weekly/weeklyupdate.sh
+echo "sudo apt-get upgrade -y >> /var/log/update_script.log" >> /etc/cron.weekly/weeklyupdate.sh
+chmod +x /etc/cron.weekly/weeklyupdate.sh
+echo "0 4 * * 0 xzhu /etc/cron.weekly/weeklyupdate.sh" | crontab
+
+# for 0 4 * * 0 the last 0 is for Sunday, it says update once a week didnt say which week day.
+#source for apt-get: https://www.cyberciti.biz/tips/linux-debian-package-management-cheat-sheet.html
+#source for autorun pre week: https://stackoverflow.com/questions/16717930/how-to-run-crontab-job-every-week-on-sunday
+#source for appending to a file: https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file

@@ -1,0 +1,2 @@
+sudo service sshd status | grep "Main PID"
+#source: https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/

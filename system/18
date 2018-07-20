@@ -1,0 +1,2 @@
+sudo /sbin/iptables -A INPUT -p tcp -s 10.0.0.0/8 -j ACCEPT
+#source: https://serverfault.com/questions/163111/allow-traffic-to-from-specific-ip-with-iptables

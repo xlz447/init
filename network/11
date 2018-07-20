@@ -1,0 +1,4 @@
+#I searched "device makes the link between local and web"
+#I found out NAT is the name of it (Network Address Translation)
+#source: https://whatismyipaddress.com/nat
+echo "nat (10.90.1.11)"

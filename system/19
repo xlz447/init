@@ -1,0 +1,4 @@
+sudo /sbin/iptables iptables -A INPUT -j DROP
+#source: https://www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands
+#https://serverfault.com/questions/157375/reject-vs-drop-when-using-iptables
+#https://www.cyberciti.biz/faq/how-do-i-block-an-ip-on-my-linux-server/

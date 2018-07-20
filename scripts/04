@@ -1,0 +1,17 @@
+MD5="$(sudo md5sum /etc/crontab | cut -d ' ' -f 1)"
+MD5OLD="$(sudo md5sum ~/old_crontab | cut -d ' ' -f 1)"
+if [ "$MD5" != "$MD5OLD" ]; then
+	echo "Not Same"
+	rm ~/old_crontab
+	cp /etc/crontab ~/old_crontab
+	mail -s "crontab changed" root
+else
+	echo "Same"
+	exit 0
+fi
+
+#we have to set up the scheduling by running the command "crontab -e"
+#and add "0 0 * * * xzhu <this .sh file's path>" to make it run every night 0:00
+#source for if else: http://www.dreamsyssoft.com/unix-shell-scripting/ifelse-tutorial.php
+#source for cut: https://stackoverflow.com/questions/816820/use-space-as-a-delimiter-with-cut-command
+#and man mail

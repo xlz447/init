@@ -1,0 +1,5 @@
+sudo kill <pid>
+#you need to know the pid of the process you want to end, there is a lot of ways to find out pid
+#you can use "ps -eaf"
+#and you can use "pkill" if you know the name of ur process
+#https://unix.stackexchange.com/questions/104821/how-to-terminate-a-background-process

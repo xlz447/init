@@ -1,0 +1,2 @@
+netstat -rn | grep "default"
+#source: https://www.rootusers.com/how-to-display-routing-table-in-linux/

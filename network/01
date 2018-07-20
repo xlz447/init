@@ -1,0 +1,2 @@
+ifconfig -l
+#source: https://www.freebsd.org/cgi/man.cgi?ifconfig(8)

@@ -1,0 +1,4 @@
+#the website "www.whois.com/" will give you the provider
+#use this link: https://www.whois.com/whois/slash16.org
+#we can also use the command:
+whois slash16.org #to display the same things in terminal

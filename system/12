@@ -1,0 +1,3 @@
+sudo -h -s /var/*
+#source: man du
+#and: https://www.cyberciti.biz/faq/linux-check-disk-space-command/

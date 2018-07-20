@@ -1,0 +1,2 @@
+networksetup -getinfo Ethernet
+#source: http://krypted.com/mac-security/mac-network-commands-cheat-sheet/

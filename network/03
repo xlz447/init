@@ -1,0 +1,3 @@
+networksetup -getinfo Wi-Fi | grep Wi-Fi | cut -b 11-
+#source: http://krypted.com/mac-security/mac-network-commands-cheat-sheet/
+#source: https://www.imss.caltech.edu/node/578 to check if the Wi-Fi address is the same as MAC address

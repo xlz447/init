@@ -1,0 +1,3 @@
+#you can find the RSA key in the /etc/ssh folder
+sudo cat /etc/ssh/ssh_host_rsa_key
+#source: https://www.ssh.com/ssh/host-key

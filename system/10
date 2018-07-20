@@ -1,0 +1,2 @@
+sudo fdisk -l
+#source	https://www.cyberciti.biz/faq/linux-viewing-drive-partitions-with-fdisk-parted/

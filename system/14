@@ -1,0 +1,2 @@
+sudo tail -f /var/log/syslog &
+#source: https://kb.iu.edu/d/afnz

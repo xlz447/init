@@ -1,0 +1,4 @@
+#I searched online and found out the DNS server in macOS is located at /etc/resolv.conf
+cat /etc/resolv.conf #will display it
+#later I found out "man nslookup" will give you the path also
+#source: https://www.cyberciti.biz/faq/how-to-find-out-what-my-dns-servers-address-is/

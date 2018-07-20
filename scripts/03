@@ -1,0 +1,4 @@
+ls -lSh "$1"
+#source : man ls
+# l is for detailed list, S is for sort by size, h is human readable.
+# could add R flag to show all subfolder files.
